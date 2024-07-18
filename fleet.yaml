@@ -1,0 +1,21 @@
+---
+validator_config_info:
+  - stake: 20000000000000000
+    gas_price: 1000
+    commission_rate: 0
+    network_address: /ip4/0.0.0.0/tcp/8080/http
+    narwhal_primary_address: /ip4/0.0.0.0/udp/8081/http
+    narwhal_worker_address: /ip4/0.0.0.0/udp/8082/http
+    p2p_address: /ip4/0.0.0.0/udp/8084/http
+    consensus_address: /ip4/127.0.0.1/tcp/8083/http
+parameters:
+  allow_insertion_of_extra_objects: false
+  epoch_duration_ms: 3600000
+accounts:
+  - address: "0xe9eeee62306d4a0cc4f9b19f546732d9fca5e02517ce10e421fffacefeae1a68"
+    gas_amounts:
+      - 20000000000000000
+      - 20000000000000000
+      - 20000000000000000
+      - 20000000000000000
+      - 20000000000000000
