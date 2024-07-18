@@ -37,3 +37,8 @@ accounts:
 ## Make a Config Folder and Initialize Genesis
 - Wherever you'd like it, create a folder using ```mkdir cfg```
 - Call the genesis command using the fleet.yaml file and set cfg/ to the working directory using ```sui genesis --from-config fleet.yaml --working-dir cfg```
+- You should now have all of the necessary files to run your Sui network within the cfg/ directory
+
+## Running a Full Node
+- To start a full node from the configuration file, run ```sui-node --config-path fullnode.yaml```
+- It is also possible to use ```sui start``` to run the network: ```sui start --network.config cfg --with-faucet```
