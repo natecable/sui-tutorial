@@ -1,5 +1,5 @@
 # How to Manually Configure and Run a Local Sui Network
-This tutorial aims to guide you along the process of configuring and running a full Sui node. You must have the latest version of the [Sui binary installed](https://docs.sui.io/guides/developer/getting-started/sui-install) on your machine.
+This tutorial aims to guide you along the process of configuring and running a full Sui node. You must have the latest version of the [Sui binary installed](https://docs.sui.io/guides/developer/getting-started/sui-install) on your machine. Solution provided by [Ștefan Stănciulescu](https://www.linkedin.com/in/stefanstanciulescu) from [Mysten Labs](https://mystenlabs.com/)! 
 
 ## Create a fleet.yaml File
 - Create a file in your working directory titles "fleet.yaml"
